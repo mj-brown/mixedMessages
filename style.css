@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url(./resources/toriGateBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+#titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    font-size: 5rem;
+    font-weight: bolder;
+    padding: 0.75em;
+    margin: 0.2em;
+    color: #090a6e;
+}
+
+#textContainer {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#buttonContainer, #messageContainer {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: 1.25em;
+    padding: 0.5em;
+    color: #090a6e;
+}
+
+h3 {
+    font-family: 'Merienda', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: .75em;
+    margin: 0.5em;
+    color: #090a6e;
+}
+
+button {
+    height: 120px;
+    width: 450px;
+    margin: 1.2em;
+    border-radius: 25px;
+    background-color: #090a6e;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: #090a6e;
+    color: #b88702;
+}
+
+
